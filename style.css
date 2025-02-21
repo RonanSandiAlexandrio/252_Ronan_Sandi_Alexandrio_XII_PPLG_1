@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(153, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    width: 353px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    box-shadow: 0 0 10px (rgb(0, 0, 1));
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border: 3px solid rgb(72, 70, 70);
+}
+
+#display {
+    width: 330px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding: 10px;
+    padding-top: 20px;
+    border: 2px solid rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 15px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(40, 40, 40);
+    color: aliceblue;
+    border: 5px solid rgb(45, 45, 45);
+}
+
+.btn:active {
+    background-color: rgb(149, 147, 147);
+}
+
+.operator {
+    background-color: rgb(0, 0, 177);
+    border: 5px solid rgb(0, 25, 167);
+}
+
+.hapus {
+    background-color: rgb(166, 0, 0);
+    border: 5px solid rgb(176, 0, 0);
+}
+
+.samadengan {
+    background-color: rgb(222, 119, 0);
+    border: 5px solid rgb(204, 133, 0);
+}
